@@ -28,15 +28,15 @@ void draw(){
   ellipse(140, 150, 40, 40);
   ellipse(260, 150, 40, 40);
 
-  // nose (simple shape)
+  // nose 
   fill(255, 60, 120);
   rect(180, 150, 40, 120);
 
-  // mouth (red lips)
+  // mouth 
   fill(200, 30, 60);
   ellipse(200, 280, 160, 60);
 
-  // Arc highlight for lips
+  // Arc
   noFill();
   stroke(255);
   arc(200, 285, 120, 40, 0, PI);
